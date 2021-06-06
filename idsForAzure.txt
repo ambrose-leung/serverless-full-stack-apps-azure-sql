@@ -1,0 +1,17 @@
+Please note your unique ID for future exercises in this module:
+PS /home/amb123> Write-Host $uniqueID
+109951
+PS /home/amb123> Write-Host "Your resource group name is:"
+Your resource group name is:
+PS /home/amb123> Write-Host $resourceGroupName
+learn-0062cddd-2b4e-45c6-a58f-0f69c101698f
+PS /home/amb123> Write-Host "Your resources were deployed in the following region:"
+Your resources were deployed in the following region:
+PS /home/amb123> Write-Host $location
+westus
+PS /home/amb123> Write-Host "Your server name is:"
+Your server name is:
+PS /home/amb123> Write-Host $serverName
+bus-server109951
+
+Server=bus-server109951.database.windows.net,1433;Initial Catalog=bus-db;User Id=cloudadmin;Password=1234qwer!;Connection Timeout=30;
